@@ -1,0 +1,8 @@
+[meta]
+name = "React"
+description = "Hook for kickstarting a React app from the official template."
+
+[exec]
+script = "npx create-react-app {} --force"
+want_path = True
+check_bin = True

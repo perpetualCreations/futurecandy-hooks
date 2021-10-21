@@ -1,0 +1,8 @@
+[meta]
+name = "Svelte"
+description = "Hook for kickstarting a Svelte app from the official template."
+
+[exec]
+script = "npx degit sveltejs/template {} --force"
+want_path = True
+check_bin = True
