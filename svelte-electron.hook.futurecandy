@@ -1,0 +1,8 @@
+[meta]
+name = "Electron with Svelte"
+description = "Hook for kickstarting an Electron app with Svelte from an unofficial template."
+
+[exec]
+script = "npx degit perpetualCreations/electron-forge-svelte {} --force"
+want_path = True
+check_bin = True
