@@ -1,0 +1,8 @@
+[meta]
+name = "Sphinx"
+description = "Hook for initializing directory with Sphinx documentation."
+
+[exec]
+script = "sphinx-quickstart {}"
+want_path = True
+check_bin = True
