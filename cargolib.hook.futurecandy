@@ -3,6 +3,6 @@ name = "Cargo (Library)"
 description = "Hook for setting up a Rust package via Cargo."
 
 [exec]
-script = "cargo new {} --lib --vcs none"
+script = "cargo init {} --lib --vcs none"
 want_path = True
 check_bin = True

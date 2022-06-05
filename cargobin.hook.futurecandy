@@ -3,6 +3,6 @@ name = "Cargo (Binary)"
 description = "Hook for setting up a Rust package via Cargo."
 
 [exec]
-script = "cargo new {} --bin --vcs none"
+script = "cargo init {} --bin --vcs none"
 want_path = True
 check_bin = True
