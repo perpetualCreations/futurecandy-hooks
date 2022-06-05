@@ -1,0 +1,8 @@
+[meta]
+name = "Tauri"
+description = "Hook for kickstarting a Tauri app from the official template."
+
+[exec]
+script = "npx create-tauri-app {} --force"
+want_path = True
+check_bin = True
